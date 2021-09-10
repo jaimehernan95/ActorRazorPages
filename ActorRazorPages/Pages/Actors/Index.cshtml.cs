@@ -6,7 +6,7 @@ namespace ActorRazorPages.Pages.Actors
 {
     public class IndexModel : PageModel
     {
-        private IData _data;
+        public IData _data;
         public IndexModel (IData data)
         {
             _data = data;
